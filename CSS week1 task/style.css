@@ -15,7 +15,7 @@
 .cover-photo {
     height: 200px; /* Adjust height as needed */
     background-color: #ddd; /* Light gray placeholder */
-    background-image: url('coverphoto.jfif'); /* Replace with actual URL or remove for placeholder */
+    background-image: url('coverphoto.png'); /* Replace with actual URL or remove for placeholder */
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
