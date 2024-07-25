@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the profile header */
+.profile-header {
+    position: relative;
+    width: 100%;
+    background-color: #f0f2f5; /* Light gray background color */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cover-photo {
+    height: 200px; /* Adjust height as needed */
+    background-color: #ddd; /* Light gray placeholder */
+    background-image: url('coverphoto.jfif'); /* Replace with actual URL or remove for placeholder */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px; /* Adjust width and height for square profile picture */
+    height: 150px;
+    border-radius: 50%; /* Makes the picture round */
+    background-color: #fff; /* White background for profile picture */
+    background-image: url('photo.png'); /* Replace with actual URL or remove for placeholder */
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff; /* Optional: adds a white border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.user-info {
+    color: #333; /* Dark gray text color */
+}
+
+.user-info h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.user-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
